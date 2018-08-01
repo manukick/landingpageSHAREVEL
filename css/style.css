@@ -233,13 +233,15 @@ blockquote {
 
 #contact {
   width: 100%;
-  background-color: RGBA(8, 7, 7, 0.92);
+  background-color: #d44865;
 }
 
 #contact .btn-primary {
-  background: #BE2525;
-  border: 1px solid #BE2525;
+  background: rgba(165,165,165);
+  border: 1px solid #a5a5a5;
+  font-size: 20px;
 }
+
 
 .validation {
   color: red;
@@ -277,7 +279,7 @@ blockquote {
 
 footer {
   padding: 40px 0;
-  background: #F2F3EB;
+  background: #cfcfcf85;
 }
 
 .footer a {
@@ -519,14 +521,19 @@ span
 
 #contest
 {
-  background-color: #cccccc85;
+  background-color: #4ed5c785;
 }
 
 #team
 {
-   background-color: #cccccc85;
+   background-color: #b8da8d85;
 }
 
+
+#letture
+{
+   background-color: #cfcfcf85;
+}
 .carousel-control.right {
     background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%) !important;
     }
@@ -534,6 +541,11 @@ span
 .carousel-control.left {
     background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%) !important;
     }
+
+#sceglierci
+{
+  background-image: linear-gradient(to right,rgba(184,218,141) 0,rgba(212,72,101) 100%);
+}
 
 @media (min-width: 100px) and (max-width: 400px) {
 .col-1 
