@@ -5,6 +5,11 @@
     Author URL: https://bootstrapmade.com
 */
 
+@font-face {
+    font-family: Pooch_Doo;
+    src: url("../fonts/Pooch_Doo.otf") format("opentype");
+  }
+
 body {
   line-height: 1.4;
   font-family: 'Roboto', sans-serif;
@@ -63,7 +68,7 @@ Responsive media queries
 
 .navbar-brand {
   font-size: 56px;
-  font-family: 'Pooch Doo';
+  font-family: 'Pooch_Doo';
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -120,7 +125,7 @@ Responsive media queries
 }
 
 .banner-text h2 span {
-  font-family: 'Pooch Doo', bold;
+  font-family: 'Pooch_Doo', bold;
 }
 
 .overlay-detail {
@@ -450,7 +455,7 @@ footer {
 
 span
 {
-  font-family: 'Pooch Doo', bold;
+  font-family: 'Pooch_Doo', bold;
   font-size: 50px;
 }
 
@@ -765,7 +770,4 @@ Responsive media queries
 
 
 
-@font-face {
-  font-family: Pooch_Doo;
-  src: url('../fonts/Pooch_Doo.otf') format ("opentype");
-}
+
