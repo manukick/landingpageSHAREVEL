@@ -484,6 +484,45 @@ span
    text-decoration: none;
 }
 
+
+#trofeo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#immtrofeo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 10%;
+}
+
+#did1
+{
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+#textdid1
+{
+    font-size: 25px;
+  font-weight: 250;
+  font-family: 'Questrial', sans-serif;
+
+}
+
+#contest
+{
+  background-color: #cccccc85;
+}
+
+
 @media (min-width: 100px) and (max-width: 400px) {
 .col-1 
 {
