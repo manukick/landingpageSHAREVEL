@@ -522,8 +522,18 @@ span
   background-color: #cccccc85;
 }
 
+#team
+{
+   background-color: #cccccc85;
+}
 
+.carousel-control.right {
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%) !important;
+    }
 
+.carousel-control.left {
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0, 0, 0, 0) 100%) !important;
+    }
 
 @media (min-width: 100px) and (max-width: 400px) {
 .col-1 
