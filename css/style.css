@@ -55,11 +55,17 @@ Responsive media queries
 }
 
 .navbar-default {
-  background-color: transparent;
+  background-color: transparent !important;
   border: 0px;
   padding: 20px 0;
   transition: all 0.3s;
+  border-color : transparent !important;
 }
+
+.top-nav-collapse 
+  {
+      background: rgba(50, 60, 70, 0.9) !important;
+  }
 
 .navbar-brand {
   font-size: 56px;
@@ -233,7 +239,7 @@ blockquote {
 
 #contact {
   width: 100%;
-  background-color: #d44865;
+  background-image: linear-gradient(to right,rgba(184,218,141) 0,rgba(212,72,101) 100%);
 }
 
 #contact .btn-primary {
@@ -455,36 +461,6 @@ span
 }
 
 
-.button_letture {
-   background: #31C8F6;
-   background-image: -webkit-linear-gradient(top, #31C8F6, #4581D0);
-   background-image: -moz-linear-gradient(top, #31C8F6, #4581D0);
-   background-image: -ms-linear-gradient(top, #31C8F6, #4581D0);
-   background-image: -o-linear-gradient(top, #31C8F6, #4581D0);
-   background-image: linear-gradient(to bottom, #31C8F6, #4581D0);
-   -webkit-border-radius: 36px;
-   -moz-border-radius: 36px;
-   border-radius: 36px;
-   color: #FFFFFF;
-   font-family: Arial;
-   font-size: 29px;
-   font-weight: 100;
-   padding: 17px;
-   border: solid #FF8138 4px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-}
-
-.button_letture:hover {
-   background: #1E62D0;
-   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
-   text-decoration: none;
-}
 
 
 #trofeo
@@ -545,7 +521,62 @@ span
 #sceglierci
 {
   background-image: linear-gradient(to right,rgba(184,218,141) 0,rgba(212,72,101) 100%);
+  border-top-width: 10px;
+  border-top-color: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  border-top-style: solid;
 }
+
+/*.hrstyle
+{
+  background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+
+
+margin-top: -100px; 
+}
+
+
+
+
+.button_letture {
+   background: #31C8F6;
+   background-image: -webkit-linear-gradient(top, #31C8F6, #4581D0);
+   background-image: -moz-linear-gradient(top, #31C8F6, #4581D0);
+   background-image: -ms-linear-gradient(top, #31C8F6, #4581D0);
+   background-image: -o-linear-gradient(top, #31C8F6, #4581D0);
+   background-image: linear-gradient(to bottom, #31C8F6, #4581D0);
+   -webkit-border-radius: 36px;
+   -moz-border-radius: 36px;
+   border-radius: 36px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 29px;
+   font-weight: 100;
+   padding: 17px;
+   border: solid #FF8138 4px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+}
+
+.button_letture:hover {
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+   text-decoration: none;
+}
+
+*/
+
 
 @media (min-width: 100px) and (max-width: 400px) {
 .col-1 
