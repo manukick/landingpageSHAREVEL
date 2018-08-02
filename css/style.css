@@ -552,7 +552,7 @@ background-image: linear-gradient(to right,rgba(184,218,141) 0,rgba(212,72,101) 
 
 #sceglierci
 {
-  background-image: linear-gradient(to right,rgba(184,218,141) 0,rgba(212,72,101) 100%);
+  background: linear-gradient(to right,rgba(184,218,141) 0,rgba(212,72,101) 100%);
   border-top-width: 10px; 
   border-top-style: solid;
 }
