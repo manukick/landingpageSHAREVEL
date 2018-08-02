@@ -246,10 +246,10 @@ blockquote {
 
 #contact {
   width: 100%;
-  background-image: -webkit-linear-gradient(to right,rgba(184,218,141) 0,rgba(212,72,101) 100%);
+  background-image: linear-gradient(to right,rgba(184,218,141) 0,rgba(212,72,101) 100%);
 
   border-top-width: 10px;
-  border-top-color: -webkit-linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  border-top-color: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
   border-top-style: solid;
  
 }
