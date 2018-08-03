@@ -423,7 +423,7 @@ footer {
 #logo
 {
   margin: -10px;
-  width: 250px;
+  width: 200px;
   height: 150px;
 }
 
@@ -441,8 +441,8 @@ footer {
 
 .col-1 
 {
-  margin-left: 8%;
-  margin-right: 5%;
+  margin-left: 6%;
+  margin-right: 4%;
   margin-top: 3%;
   width: 20%;
   height: 200px;
@@ -452,8 +452,8 @@ footer {
 
 .col-2 
 {
-  margin-left: 6.5%;
-  margin-right: 6.5%;  
+  margin-left: 8.5%;
+  margin-right: 5.5%;  
   margin-top: 
   width: 20%;
   height: 200px;
@@ -463,8 +463,8 @@ footer {
 
 .col-3 
 {
-  margin-left: 5%;
-  margin-right: 8%;
+  margin-left: 5.5%;
+  margin-right: 6%;
 
   width: 20%;
   height: 200px;
@@ -539,7 +539,7 @@ span
   font-weight: 250;
   font-family: 'Questrial', sans-serif;  
   margin-top: 10%;
-  margin-left: 19%;
+  margin-left: 23%;
 }
 
 #textdid4
@@ -629,6 +629,22 @@ border-radius: 5px;
   max-height: 500px;
 
   width: 215px;
+  height: 200px;
+
+  
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+#captain_america
+{
+ 
+  max-width: 500px;
+  max-height: 500px;
+
+  width: 275px;
   height: 200px;
 
   
