@@ -433,10 +433,10 @@ footer {
 {
   margin-left: 8%;
   margin-right: 5%;
-
+  margin-top: 3%;
   width: 20%;
   height: 200px;
- background: #00000075;
+ background: transparent;
   display: inline-block;
 }
 
@@ -444,10 +444,10 @@ footer {
 {
   margin-left: 6.5%;
   margin-right: 6.5%;  
-
+  margin-top: 
   width: 20%;
   height: 200px;
-  background: #00000075;
+  background: transparent;
   display: inline-block;
 }
 
@@ -458,7 +458,7 @@ footer {
 
   width: 20%;
   height: 200px;
-  background: #00000075;
+  background: transparent;
   display: inline-block;
 }
 
@@ -512,6 +512,33 @@ span
   font-weight: 250;
   font-family: 'Questrial', sans-serif;
 
+}
+
+#textdid2
+{
+    font-size: 40px;
+  font-weight: 250;
+  font-family: 'Questrial', sans-serif;  
+  margin-top: 10%;
+  margin-left: 22%;
+}
+
+#textdid3
+{
+    font-size: 40px;
+  font-weight: 250;
+  font-family: 'Questrial', sans-serif;  
+  margin-top: 10%;
+  margin-left: 19%;
+}
+
+#textdid4
+{
+    font-size: 40px;
+  font-weight: 250;
+  font-family: 'Questrial', sans-serif;  
+  margin-top: 10%;
+  margin-left: 35%;
 }
 
 #contest
@@ -584,6 +611,22 @@ border-radius: 5px;
 }
 
 
+
+#rubber
+{
+ 
+  max-width: 500px;
+  max-height: 500px;
+
+  width: 215px;
+  height: 200px;
+
+  
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
 /*
 .button_letture {
    background: #31C8F6;
@@ -627,7 +670,7 @@ border-radius: 5px;
 
   width: 19%;
   height: 200px;
-  background: #00000075;
+  background: transparent;
   display: inline-block;
 }
 
@@ -638,7 +681,7 @@ border-radius: 5px;
 
   width: 19%;
   height: 200px;
-   background: #00000075;
+  background: transparent;
   display: inline-block;
 }
 
@@ -649,7 +692,7 @@ border-radius: 5px;
 
   width: 19%;
   height: 200px;
-   background: #00000075;
+  background: transparent;
   display: inline-block;
 }
 
@@ -675,7 +718,7 @@ border-radius: 5px;
 
   width: 19%;
   height: 200px;
- background: #00000075;
+  background: transparent;
   display: inline-block;
 }
 
@@ -686,7 +729,7 @@ border-radius: 5px;
 
   width: 19%;
   height: 200px;
- background: #00000075;
+  background: transparent;
   display: inline-block;
 }
 
@@ -697,7 +740,7 @@ border-radius: 5px;
 
   width: 19%;
   height: 200px;
-   background: #00000075;
+  background: transparent;
   display: inline-block;
 }
 
@@ -719,7 +762,7 @@ border-radius: 5px;
 
   width: 19%;
   height: 200px;
-   background: #00000075;
+  background: transparent;
   display: inline-block;
 }
 
@@ -730,7 +773,7 @@ border-radius: 5px;
 
   width: 19%;
   height: 200px;
-   background: #00000075;
+    background: transparent;
   display: inline-block;
 }
 
@@ -741,7 +784,7 @@ border-radius: 5px;
 
   width: 19%;
   height: 200px;
-   background: #00000075;
+  background: transparent;
   display: inline-block;
 }
 
